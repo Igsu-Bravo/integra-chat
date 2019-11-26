@@ -25,6 +25,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   border: 1px solid green;
-  border-radius: 10px;
+  border-radius: 5px;
+  background-color: #ededed;
 }
 </style>

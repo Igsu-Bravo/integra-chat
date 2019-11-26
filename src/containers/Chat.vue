@@ -1,13 +1,18 @@
 <template>
 	<section id="main-wrapper">
-		<p>Title</p>
+		<Title />
 		<p>Info</p>
 		<p>contentsz</p>
 	</section>
 </template>
 <script>
+import Title from "../components/Title.vue";
+
 export default {
-  name: 'Chat',
+	name: 'Chat',
+	components: {
+		Title
+	},
   props: {
 		conf: [],
  }
