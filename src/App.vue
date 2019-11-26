@@ -7,12 +7,25 @@
 
 <script>
 import Chat from "./containers/Chat.vue"
+//import axios from 'axios'
+import _ from './env'
 
 export default {
   name: 'app',
   components: {
     Chat
-  }
+  },
+  data: () => {
+    return {
+      message: '',
+      intent: '',
+      time: '',
+      url: _,
+    }
+  },
+  mounted: () => {
+
+  },
 }
 </script>
 
