@@ -8,6 +8,7 @@
 <script>
 import Chat from "./containers/Chat.vue"
 //import axios from 'axios'
+import _ from './env'
 
 export default {
   name: 'app',
@@ -19,7 +20,7 @@ export default {
       message: '',
       intent: '',
       time: '',
-      url: process.env,
+      url: _,
     }
   },
   mounted: () => {
